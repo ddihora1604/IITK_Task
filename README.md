@@ -114,6 +114,7 @@ This project is a comprehensive financial data analysis system that collects, pr
    python balance_sheet.py
    python cash_flows.py
    ```
+   
 3. Run the main data collection script:
    ```bash
    python stocks.py
