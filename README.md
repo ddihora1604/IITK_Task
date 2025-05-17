@@ -6,7 +6,7 @@ This project is a comprehensive financial data analysis system that collects, pr
 ## Key Features
 
 ### 1. Historical Data Analysis
-- Historical price data collection and analysis
+- Historical price data collection over the past 5 years
 - Time-series data processing
 - Market trend analysis capabilities
 
@@ -104,9 +104,19 @@ This project is a comprehensive financial data analysis system that collects, pr
 
 ### Running the Project
 1. Ensure all dependencies are installed
-2. Run the main data collection script:
+2. Run the individual data fetching and scraping script:
    ```bash
    python historical_data.py
+   python esg_data.py
+   python company_summary.py
+   python statistical_data.py
+   python income_statement.py
+   python balance_sheet.py
+   python cash_flows.py
+   ```
+3. Run the main data collection script:
+   ```bash
+   python stocks.py
    ```
 
 ## Project Structure
